@@ -414,6 +414,13 @@ function M.setup(config)
     DashboardShortCut = { fg = c.light_blue },
     DashboardCenter = { fg = c.bright_yellow },
     DashboardFooter = { fg = c.blue_gray },
+
+    -- Headline
+    HeadlineGreen = { bg = c.forest_green },
+    HeadlineBlue = { bg = c.light_blue },
+    HeadlineRed =  { bg = c.red },
+    HeadlinePurple =  { bg = c.magenta },
+    HeadlineYellow =  { bg = c.soft_yellow },
   }
 
   if config.telescope_theme then
