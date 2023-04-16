@@ -188,7 +188,7 @@ function M.setup(config)
     markdownBlockquote = { fg = c.comment },
     markdownBold = { fg = c.bright_yellow, style = "bold" },
     markdownCode = { fg = c.soft_yellow },
-    markdownCodeBlock = { fg = c.comment },
+    markdownCodeBlock = { fg = c.orange },
     markdownCodeDelimiter = { fg = c.comment },
     markdownH1 = { fg = c.foreground },
     markdownH2 = { fg = c.foreground },
